@@ -33,3 +33,4 @@
 - 真机验证后微调（0901 下午）：字体 30px→20px、布局按字体行高自适应、
   每日一句改 RandomQuote（语数英史科多类别+提示词过滤）、屏幕前缀 "Tips: "
 
+<img width="800" height="480" alt="image" src="https://github.com/user-attachments/assets/19e53db9-76c0-4f51-b47d-4df2638013dd" />
