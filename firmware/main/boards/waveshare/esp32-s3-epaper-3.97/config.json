@@ -1,0 +1,18 @@
+{
+    "manufacturer": "waveshare",
+    "type": "esp32-s3-epaper-3.97",
+    "target": "esp32s3",
+    "builds": [
+        {
+            "name": "esp32-s3-epaper-3.97",
+            "sdkconfig_append": [
+                "CONFIG_USE_WECHAT_MESSAGE_STYLE=n",
+                "CONFIG_USE_MULTILINE_CHAT_MESSAGE=y",
+                "CONFIG_FATFS_LFN_HEAP=y",
+                "CONFIG_FATFS_MAX_LFN=255",
+                "CONFIG_FATFS_API_ENCODING_UTF_8=y",
+                "CONFIG_FATFS_FS_LOCK=2"
+            ]
+        }
+    ]
+}
